@@ -1,0 +1,69 @@
+body {
+    font-size: 11px;
+    background-image: url('https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?cs=srgb&dl=pexels-sebastian-ervi-1763075.jpg&fm=jpg&w=1920&h=1372');
+    background-size: auto;
+}
+
+.dd-countdown-timer {
+    width: 50vw;
+    border: 5px solid black;
+    margin: 7vh auto;
+    font-family: Oswald;
+    padding: 0 0;
+    filter: hue-rotate(140deg);
+}
+
+.dd-countdown-timer-head {
+    background-color: blue;
+}
+
+.dd-countdown-timer-body {
+    background-color: navy;
+}
+
+.dd-h1, .dd-h3 {
+    margin:0 0;
+    text-align: center;
+    color: white;
+}
+
+.dd-h1 {
+    margin: 0 0;
+    line-height: 60px;
+    font-family: Lobster;
+}
+
+.dd-h3 {
+    margin: 0 0;
+    padding-top: 0.2em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.is-countdown .countdown-amount {
+    font-size: 3rem;
+}
+
+.is-countdown .countdown-period {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.is-countdown {
+    min-height: 11em;
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 1920px;
+    opacity: 0.2;
+}
+
+footer:hover {
+    opacity: 1;
+}
