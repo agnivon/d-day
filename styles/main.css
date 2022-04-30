@@ -1,16 +1,17 @@
 body {
     font-size: 11px;
     background-image: url('https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?cs=srgb&dl=pexels-sebastian-ervi-1763075.jpg&fm=jpg&w=1920&h=1372');
-    background-size: auto;
+    background-size: 100%;
 }
 
 .dd-countdown-timer {
     width: 50vw;
     border: 5px solid black;
+    border-radius: 5px;
     margin: 7vh auto;
     font-family: Oswald;
     padding: 0 0;
-    filter: hue-rotate(140deg);
+    filter: hue-rotate(140deg);  
 }
 
 .dd-countdown-timer-head {

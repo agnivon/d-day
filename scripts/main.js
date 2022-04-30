@@ -4,6 +4,7 @@ let dDay = new Date(2022, 7 - 1, 22);
 let playlist = ['country-roads', 'sweet-home-alabama', 'this-feeling', 'the-city', 'high-on-life', 'no-sleep']
 let max = playlist.length
 let played = Math.floor(Math.random() * (max - 0) + 0)
+let loaded = true
 
 $(document).ready(() => {
     let audioPlayer = document.getElementById('music-player')
@@ -11,10 +12,15 @@ $(document).ready(() => {
     $('#semendCountdown').countdown({ until: semEnd });
     $('#ddayCountdown').countdown({ until: dDay });
 
-    audioPlayer.src = 'audio/' + playlist[played] + '.mp3'
-    audioPlayer.pause()
-    audioPlayer.load()
-    audioPlayer.play()
+    document.addEventListener('mouseenter', function () {
+        if(loaded) {
+            audioPlayer.src = 'audio/' + playlist[played] + '.mp3'
+            audioPlayer.pause()
+            audioPlayer.load()
+            audioPlayer.play()
+            loaded = false
+        }
+    })
 
     audioPlayer.addEventListener('ended', function () {
         audioPlayer.src = 'audio/' + playlist[++played % max] + '.mp3'
