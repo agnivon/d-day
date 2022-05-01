@@ -1,7 +1,7 @@
 let semEnd = new Date(2022, 6 - 1, 30);
 let dDay = new Date(2022, 7 - 1, 22);
 
-let playlist = ['country-roads', 'sweet-home-alabama', 'this-feeling', 'the-city', 'high-on-life', 'no-sleep']
+let playlist = ['cinema', 'the-nights', 'this-feeling', 'the-city', 'high-on-life', 'no-sleep', 'sweat']
 let max = playlist.length
 let played = Math.floor(Math.random() * (max - 0) + 0)
 let loaded = true
