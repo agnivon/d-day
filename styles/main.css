@@ -29,18 +29,19 @@
 
 body {
     height: 100vh;
+    padding-top: 5vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?cs=srgb&dl=pexels-wendy-wei-1677710.jpg&fm=jpg&w=1920&h=1280');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .dd-countdown-timer {
     width: 70vw;
     min-width: 225px;
-    margin: 7vh auto;
+    margin: 3vh auto;
     font-family: Oswald;
     padding: 0 0;
     opacity: 0.9;
