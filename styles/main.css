@@ -19,8 +19,8 @@
 body {
     height: 100vh;
     background-image: url('https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?cs=srgb&dl=pexels-sebastian-ervi-1763075.jpg&fm=jpg&w=1920&h=1372');
-    background-size: stretch;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
